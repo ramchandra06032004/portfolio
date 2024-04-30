@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@576&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+.Aboutheader {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.eduContainer {
+  height: 25vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.edu {
+  width: 33.3%;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.mid {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.eduHead1 {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+}
+.eud3div {
+  display: flex;
+}
+@media (max-width: 650px) {
+  .eud3div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .edu {
+    width: 100%;
+    padding: 2rem 0px;
+  }
+  .mid {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+  }
+  .aboutContainer {
+    height: 600px;
+  }
+  .eduContainer {
+    height: 81vh;
+  }
+}

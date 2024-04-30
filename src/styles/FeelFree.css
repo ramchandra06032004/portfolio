@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap");
+.FeelFreeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projectDiv {
+  height: 270vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ProHead {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  padding-top: 02rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.proInfo {
+  width: 50vw;
+  height: 90vh;
+  font-size: 1.2rem;
+  gap: 1rem;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Features {
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.projectImageColumn div img {
+  width: 40vw;
+  height: 40vh;
+}
+.projectImageColumn {
+  display: flex;
+  gap: 3vw;
+  padding-top: 3rem;
+}
+.RightImage {
+  margin-top: 6rem;
+}
+.greenBox {
+  background-color: #1c1c1c;
+  height: 50vh;
+  width: 44vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FeatureHead {
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0 0 2rem;
+  font-weight: bolder;
+}
+.proJectInfo div {
+  padding: 1rem 0 0 2rem;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  width: 40vw;
+}
+.greenMainDiv {
+  background-color: #cfe1b9;
+  display: flex;
+  height: 160vh;
+  align-items: center;
+  flex-direction: column;
+  color: #1c1c1c;
+}
+@media (max-width: 650px) {
+  .ProHead {
+    font-size: 2rem;
+  }
+  .proInfo {
+    font-size: 1rem;
+    width: 80vw;
+  }
+  .projectDiv {
+    height: auto;
+    width: 94%;
+  }
+  .greenMainDiv {
+    height: auto;
+    width: 94%;
+  }
+  .projectImageColumn {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftImage {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .greenBox {
+    width: 88vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectImageColumn div img {
+    width: 80vw;
+    height: 20vh;
+  }
+  .proJectInfo div {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .RightImage {
+    margin-top: -4vh;
+  }
+  .proJectInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mar {
+    border-top: #1c1c1c 1px solid;
+    margin-bottom: 3rem;
+  }
+  .projectImageColumn {
+    padding-top: 0px;
+  }
+}
